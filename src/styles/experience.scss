@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital@1&family=Montserrat:ital@1&family=Noto+Sans&family=Source+Sans+Pro&family=Source+Serif+Pro&display=swap");
+
+#experience {
+  // border: 2px solid red;
+  width: 80%;
+  height: 120vh;
+  margin: 0 auto;
+  margin-top: 100px;
+  > h2 {
+    border: 2px solid rgb(255, 255, 255);
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    width: 38%;
+  }
+}
+.Expupper {
+  margin-top: 30px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px;
+  gap: 4rem;
+  > .firstexp {
+    gap: 2rem;
+    display: flex;
+  }
+  .data {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  .date {
+    margin-top: 20px;
+    color: blue;
+  }
+  .headexp {
+    font-size: 35px;
+    width: 70%;
+  }
+  .work {
+    font-size: 18px;
+    font-family: "Noto Sans", sans-serif;
+    color: rgb(143, 142, 142);
+    font-weight: 200;
+    word-spacing: 1px;
+  }
+  .imgexp1 {
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 330px;
+    height: 250px;
+    border: 2px solid white;
+  }
+  .imgexp2 {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 330px;
+    height: 250px;
+  }
+
+  .imgcc:hover {
+    transform: scale(1.05);
+    transition: 0.7s all ease-in-out;
+  }
+  .hexp2 {
+    font-size: 34.5px;
+    width: 77%;
+  }
+}

@@ -1,0 +1,42 @@
+#contact {
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.uppercontact {
+  margin-bottom: 50px;
+  //  the below three lines are for giving box shadow only at bottom
+  -webkit-box-shadow: 0 8px 6px -6px rgba(38, 38, 231, 0.5);
+  -moz-box-shadow: 0 8px 6px -6px rgba(38, 38, 231, 0.5);
+  box-shadow: 0 8px 6px -6px rgba(38, 38, 231, 0.5);
+  display: flex;
+  padding: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  > .acontact {
+    background-color: rgb(87, 87, 175);
+    padding: 13px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  .names {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .acontact:hover {
+    color: black;
+    transition: all 0.5s ease-in-out;
+  }
+  .icons {
+    border-radius: 50%;
+  }
+  .icons:hover {
+    transform: scale(1.15);
+    transition: 0.75s all ease-in-out;
+  }
+}

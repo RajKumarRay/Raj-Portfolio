@@ -1,0 +1,51 @@
+// @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Moon+Dance&family=PT+Serif:wght@700&family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Source+Sans+Pro&family=Source+Serif+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital@1&family=Noto+Sans&family=Source+Sans+Pro&family=Source+Serif+Pro&display=swap");
+@import "header";
+@import "home";
+@import "about";
+@import "experience";
+@import "skills";
+@import "contact";
+body,
+html {
+  height: 100%;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  // font-family: "Open Sans", sans-serif;
+  font-family: "Roboto Slab", serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: white;
+  // padding: 20px;
+}
+// #all {
+//   background-image: url("../assests/fifth.jpg");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   z-index: 1;
+
+//   height: 100%;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
+
+a {
+  text-decoration: none;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
